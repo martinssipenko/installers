@@ -8,5 +8,6 @@ class WordPressInstaller extends BaseInstaller
         'theme'     => 'themes/{$name}/',
         'muplugin'  => 'mu-plugins/{$name}/',
         'core'      => 'docs/',
+        'dropin'    => 'docs/wp-content/',
     );
 }
